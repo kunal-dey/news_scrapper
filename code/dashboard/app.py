@@ -24,4 +24,4 @@ def main(page:ft.Page):
         ),
     )
 
-ft.app(main)
+ft.app(target=main, view=None, port=8502)
